@@ -1,0 +1,22 @@
+{
+    "name": "bomtools/converter",
+    "description": "Tools for simple variables and array converting",
+    "keywords": ["converter", "types", "type", "variable"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bakay Omuraliev",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php": ">=7.x.x"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"BomTools\\": "src/"
+    	}
+    }
+}
